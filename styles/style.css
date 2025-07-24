@@ -184,3 +184,43 @@ body {
   max-width: 300px;
   height: auto;
 }
+
+
+/* time section  */
+.time {
+  background: #fff0f0;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 3rem auto 0 auto;
+  padding: 40px 32px 32px 32px;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+}
+
+.time-section h1 {
+  font-size: 1.5rem;
+  margin: 12px 0;
+  color: #222;
+  font-weight: 600;
+}
+
+.time-section .text {
+  color: #f00;
+  font-weight: 700;
+}
+
+.btn-join {
+  margin-top: 2rem;
+}
+
+.btn-join button {
+  background: #f00;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
