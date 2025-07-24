@@ -1,0 +1,78 @@
+/* Base Styles */
+:root {
+  --primary-color: #f00;
+  --text-color: #fff;
+  --dark-overlay: rgba(0, 0, 0, 0.5);
+  --button-hover: gold;
+  --max-width: 1320px;
+}
+.bg-colour{
+    background-color: #fdf7f7;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header & Banner Styles */
+.header {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  color: var(--text-color);
+  text-align: center;
+  padding: 2rem;
+}
+
+.banner-subtitle {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.banner-title {
+  font-size: 4.5rem;
+  margin: 1rem 0 0;
+  line-height: 1.2;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--dark-overlay);
+  z-index: 1;
+}
