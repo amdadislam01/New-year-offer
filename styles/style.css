@@ -224,3 +224,62 @@ body {
   cursor: pointer;
   transition: background 0.3s;
 }
+
+/* Best offer section  */
+.best-offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: var(--max-width);
+  margin: 4rem auto;
+  padding: 2rem 1rem;
+}
+
+.offer-part {
+  flex: 1;
+  text-align: left;
+}
+
+.offer-image-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.offer-image-round {
+  width: 384px;
+  height: 384px;
+  border-radius: 50%;
+  border: 8px solid #f00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.offer-image-round img {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.year-part {
+  flex: 1;
+  text-align: right;
+}
+
+.year-part .year {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f00;
+}
+.year-part img {
+  width: 120px;
+  height: auto;
+  display: inline-block;
+  margin-top: 1rem;
+}
