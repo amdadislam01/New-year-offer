@@ -76,3 +76,38 @@ body {
   background: var(--dark-overlay);
   z-index: 1;
 }
+/* Discount Section Styles */
+.discount-section {
+  height: 802px;
+  width: 806px;
+  text-align: center;
+  padding: 3rem 1rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.discount-amount {
+  font-size: 3.75rem;
+  color: var(--primary-color);
+  font-weight: 900;
+  margin: 0;
+}
+
+.discount-subtitle {
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  letter-spacing: 1px;
+}
+
+.discount-categories {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #000;
+  margin: 1rem 0 2.5rem;
+}
+
+.discount-image {
+  max-width: 100%;
+  height: auto;
+}
