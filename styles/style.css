@@ -283,3 +283,64 @@ body {
   display: inline-block;
   margin-top: 1rem;
 }
+/* Sales Section Styles */
+.sales {
+  background: linear-gradient(90deg, #fff0f0 60%, #ffe5e5 100%);
+  border-radius: 16px;
+  max-width: var(--max-width);
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  box-shadow: 0 6px 32px rgba(255, 0, 0, 0.07);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sales-discount h1 {
+  color: #f00;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.sales-discount h2 {
+  color: #222;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.sales-discount p {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sales-discount .gift-box {
+  width: 180px;
+  margin: 1.5rem 1rem 0 1rem;
+  vertical-align: middle;
+}
+
+.sales-banner {
+  background: #f00;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  margin: 2rem auto 1.5rem auto;
+  display: inline-block;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 16px rgba(255, 0, 0, 0.1);
+}
+
+.sales-discount img[alt="50% discount"] {
+  width: 120px;
+  margin: 1.5rem 1rem 0 1rem;
+  vertical-align: middle;
+}
