@@ -344,6 +344,42 @@ body {
   margin: 1.5rem 1rem 0 1rem;
   vertical-align: middle;
 }
+/* portfolio section style */
+.portfolio-section {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.portfolio-subtitle {
+  color: red;
+  font-weight: 700;
+  margin: 0;
+}
+
+.portfolio-title {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.portfolio-description {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.portfolio-gallery img {
+  width: 100%;
+  border-radius: 16px;
+}
 
 /* News latter */
 
