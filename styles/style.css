@@ -111,3 +111,76 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+/* Party Section Styles */
+.party-section {
+  background-image: url("../images/Vectorrr.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: var(--max-width);
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-color);
+  margin: 6.25rem auto;
+  padding: 0 2rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.party-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--dark-overlay);
+  z-index: 1;
+}
+
+.party-content {
+  position: relative;
+  z-index: 2;
+  max-width: 50%;
+}
+
+.party-content h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.party-content h1 span {
+  text-transform: lowercase;
+}
+
+.party-description {
+  margin: 1.25rem 0;
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.join-button {
+  display: inline-block;
+  /* background: var(--text-color); */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+
+
+.party-year-image {
+  position: relative;
+  z-index: 2;
+}
+
+.party-year-image img {
+  max-width: 300px;
+  height: auto;
+}
