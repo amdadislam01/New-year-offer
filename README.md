@@ -29,5 +29,10 @@ A simple and attractive **New Year Promotional Landing Page** built using **HTML
 
 <img src="https://i.postimg.cc/9Mnm5KfY/new-year-offer-screenshot.png" alt="New Year Offer Screenshot" width="1000"/>
 
+---
 
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/amdadislam01/New-year-offer.git
 
