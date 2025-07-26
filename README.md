@@ -27,7 +27,7 @@ A simple and attractive **New Year Promotional Landing Page** built using **HTML
 
 ## 📸 Screenshot
 
-<img src="https://i.postimg.cc/QdgnnmR6/screencapture-127-0-0-1-5500-index-html-2025-07-08-12-29-27.png" alt="New Year Offer Screenshot" width="1000"/>
+<img src="https://ik.imagekit.io/yqnbhdlo4/Img/screencapture-127-0-0-1-5500-index-html-2025-07-08-12_29_27.png?updatedAt=1753525765922" alt="New Year Offer Screenshot" width="1000"/>
 
 ---
 
